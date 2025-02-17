@@ -22,7 +22,7 @@ export default function Inicio() {
   useFocusEffect(
     useCallback(() => {
       consultar();
-    }, [])
+    }, [ listasExibir ])
   );
 
   const consultar = async () => {
